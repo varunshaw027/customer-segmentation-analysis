@@ -3,7 +3,9 @@
 🚀 An end-to-end marketing analytics project evaluating campaign performance using SQL and Tableau.
 
 ## 📌 Project Overview
-This project analyzes marketing campaign performance across multiple channels to evaluate cost efficiency, engagement, and return on investment. The goal is to identify whether any channel outperforms others and provide data-driven recommendations for budget allocation.
+I built an end-to-end marketing analytics dashboard to evaluate campaign performance across channels.
+
+---
 
 ## 🚀 Problem Statement
 Marketing teams often struggle to identify which channels deliver the best performance. This project analyzes campaign data to evaluate whether budget allocation across channels is optimized or if improvements are needed.
@@ -96,6 +98,9 @@ The dataset includes customer demographics, transaction behavior, and engagement
 - Built Tableau dashboard to visualize cross-channel performance
 - Applied scatter plot to analyze relationship between CPC and CTR
 
+## ⚡ Key Takeaway
+The dataset reveals a performance plateau across channels, indicating that growth will likely come from innovation in strategy rather than increased spending.
+
   ## 🎯 Why This Project Matters
 Understanding marketing performance helps businesses allocate budget efficiently, improve campaign effectiveness, and maximize return on investment.
 
@@ -120,6 +125,15 @@ Built an end-to-end marketing analytics solution using SQL Server and Tableau to
 <img width="1000" height="800" alt="dashboard" src="https://github.com/user-attachments/assets/c51f3cbf-cc99-4a6b-9bc7-2612ecc20c6b" />
 
 ---
+
+## 💻 Sample SQL Query
+```sql
+SELECT 
+    Channel_Used,
+    SUM(Clicks) * 1.0 / SUM(Impressions) AS CTR,
+    SUM(Acquisition_Cost) * 1.0 / SUM(Clicks) AS CPC
+FROM marketing_data
+GROUP BY Channel_Used;
 
 ## 👤 Author
 Varun Shaw
