@@ -1,5 +1,7 @@
 # 📊 Marketing Campaign Performance Analysis
 
+🚀 An end-to-end marketing analytics project evaluating campaign performance using SQL and Tableau.
+
 ## 📌 Project Overview
 This project analyzes marketing campaign performance across multiple channels to evaluate cost efficiency, engagement, and return on investment. The goal is to identify whether any channel outperforms others and provide data-driven recommendations for budget allocation.
 
@@ -31,7 +33,7 @@ The dataset includes customer demographics, transaction behavior, and engagement
 
 
 ## 🧾 SQL Analysis Highlights
-- Aggregated CTR, CPC, and ROI by channel
+- Aggregated Click Through Rate (CTR), Cost Per Click (CPC), and Return on Investment (ROI) by channel
 - Used GROUP BY and aggregate functions
 - Handled calculations for performance metrics
 
@@ -93,6 +95,9 @@ The dataset includes customer demographics, transaction behavior, and engagement
 - Designed KPIs to evaluate cost, engagement, and return
 - Built Tableau dashboard to visualize cross-channel performance
 - Applied scatter plot to analyze relationship between CPC and CTR
+
+  ## 🎯 Why This Project Matters
+Understanding marketing performance helps businesses allocate budget efficiently, improve campaign effectiveness, and maximize return on investment.
 
 ---
 
